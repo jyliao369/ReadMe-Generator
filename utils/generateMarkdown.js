@@ -14,13 +14,13 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `## Project Title: ${data.title}
 
-  ## Description: 
-  
+  ## Description: ${data.description}
+
   ## Table of Contents
-      * [Installation]
-      * [Usage]
-      * [Credits]
-      * [License]
+      * [Installation] (#installation)
+      * [Usage] (#usage)
+      * [Credits] (#credit)
+      * [License] (#license)
       * [Contributors](#contributing)
       * [Tests](#tests)
       * [Questions](#questions)
@@ -28,36 +28,36 @@ function generateMarkdown(data) {
   ## Installation
   -- What technologies did the application require in order to run smoothly and effectively?--
 
-  The following dependencies were installed to run the application properly: 
+  The following dependencies were installed to run the application properly: ${data.dependencies}
 
   ## Usage
   -- How do you use this application? --
 
-  In order to use this app, you will need: 
+  In order to use this app, you will need: ${data.use}
 
   ## License
   -- Are there any license the application has? --
 
-  The project is under the ____ license
+  The project is under the ${data.license} license
 
   ## Contributors
   -- Where there any contributors to the application/project --
 
-  Contributors that help create this application are:
+  Contributors that help create this application are: ${data.contributor}
 
   ## Tests
   -- How can we test the application --
 
-  The following is needed in order to run tests:
+  The following is needed in order to run tests: ${data.test}
 
   ## Questions
   -- Do you have any questions? --
 
-  If you do, contact me at:
+  If you do, contact me at: ${data.email}
 
-  -- Want to see the repo of the project__
+  -- Want to see the repo of the project --
 
-  The repository can be accessed here: 
+  The repository can be accessed here: ${data.github}
   `;
 }
 

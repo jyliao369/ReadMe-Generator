@@ -14,7 +14,7 @@ const questions = [
     },
     {
         // Description of Project
-        name: 'Description',
+        name: 'description',
         type: 'input',
         message: 'Describe your project idea.'
     },
@@ -38,7 +38,7 @@ const questions = [
     },
     {
         // Who contributed
-        name: 'Contributions',
+        name: 'contributor',
         type: 'input',
         message: 'Did anybody help you?'
     },
@@ -74,7 +74,7 @@ const writeFile = (fileName, data) => {
 const init = () => {
     inquirer.prompt(questions)
         .then(function(data) {
-            writeFile("READ.ME", generateMarkdown(data));
+            writeFile("README.md", generateMarkdown(data));
             console.log(data)
         })
 }
