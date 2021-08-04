@@ -17,13 +17,13 @@ function generateMarkdown(data) {
   ## Description: ${data.description}
 
   ## Table of Contents
-      * [Installation] (#installation)
-      * [Usage] (#usage)
-      * [Credits] (#credit)
-      * [License] (#license)
-      * [Contributors](#contributing)
-      * [Tests](#tests)
-      * [Questions](#questions)
+  * [Installation] (#installation)
+  * [Usage] (#usage)
+  * [Credits] (#credit)
+  * [License] (#license)
+  * [Contributors](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Installation
   -- What technologies did the application require in order to run smoothly and effectively?--
