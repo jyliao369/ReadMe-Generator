@@ -16,7 +16,7 @@ const questions = [
         // Description of Project
         name: 'description',
         type: 'input',
-        message: 'Describe your project idea.'
+        message: 'Describe your project idea'
     },
     {
         // Any technologies used?

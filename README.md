@@ -1,46 +1,53 @@
 ## Project Title: ReadMe Generator
 
-  ## Description: The application will help generate a professional looking ReadMe file for projects
+  ## Description:
+  The idea of this project is to create a generator that can create a ReadMe File for any future projects
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
   * [Contributors](#contributors)
+  * [License](#license)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## Installation
   -- What technologies did the application require in order to run smoothly and effectively?--
 
-  The following dependencies were installed to run the application properly: Javscript and CSS
+  Node and JS
 
   ## Usage
-  -- How do you use this application? --
+  -- What is the application used for? --
 
-  In order to use this app, you will need: Web Developers and Software Engineering
+   This application is for Web Developers and Sotfware Engineers
 
   ## License
   -- Are there any license the application has? --
 
-  The project is under the no license
+  This Application is covered by the MIt license.
+
+  [License Information](https://opensource.org/licenses/MIt)
+
+  ![badge](https://img.shields.io/static/v1?label=License&message=MIt&color=success)
+
 
   ## Contributors
-  -- Where there any contributors to the application/project --
+  -- Were there any contributors to the application/project --
 
-  Contributors that help create this application are: no
+  Contributors: Justin Liao
 
   ## Tests
   -- How can we test the application --
 
-  The following is needed in order to run tests: Node.js was needed to test
+ The application can be tested using Node.js in visual code or Gitbash for the command line
 
   ## Questions
-  -- Do you have any questions? --
+  -- Have any questions? --
 
-  If you do, contact me at: jlkj;asdf
+  Please reach out to me if you have any questions. Contact me at: jyliao369@gmail.com
 
   -- Want to see the repo of the project --
 
-  The repository can be accessed here: jdslf
+  Interested in seeing other projects I have worked on? My repository can be accessed here: 
+  https://github.com/jyliao369
   

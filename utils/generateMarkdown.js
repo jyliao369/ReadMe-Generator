@@ -20,8 +20,8 @@ const generateMarkdown = (data) => {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
   * [Contributors](#contributors)
+  * [License](#license)
   * [Tests](#tests)
   * [Questions](#questions)
   
@@ -41,6 +41,7 @@ const generateMarkdown = (data) => {
   This Application is covered by the ${data.license} license.
 
   [License Information](https://opensource.org/licenses/${data.license})
+
   ![badge](https://img.shields.io/static/v1?label=License&message=${data.license}&color=success)
 
 
@@ -52,7 +53,7 @@ const generateMarkdown = (data) => {
   ## Tests
   -- How can we test the application --
 
-  The following is needed in order to run tests: ${data.test}
+ ${data.test}
 
   ## Questions
   -- Have any questions? --
