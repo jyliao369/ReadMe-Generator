@@ -1,20 +1,21 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+const renderLicenseBadge = (license) => {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+const renderLicenseLink = (license) => {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+const renderLicenseSection = (license) => {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+const generateMarkdown = (data) => {
   return `## Project Title: ${data.title}
 
-  ## Description: ${data.description}
+  ## Description:
+  ${data.description}
 
   ## Table of Contents
   * [Installation](#installation)
@@ -27,22 +28,26 @@ function generateMarkdown(data) {
   ## Installation
   -- What technologies did the application require in order to run smoothly and effectively?--
 
-  The following dependencies were installed to run the application properly: ${data.dependencies}
+  ${data.dependencies}
 
   ## Usage
-  -- How do you use this application? --
+  -- What is the application used for? --
 
-  In order to use this app, you will need: ${data.use}
+  ${data.use}
 
   ## License
   -- Are there any license the application has? --
 
-  The project is under the ${data.license} license
+  This Application is covered by the ${data.license} license.
+
+  [License Information](https://opensource.org/licenses/${data.license})
+  ![badge](https://img.shields.io/static/v1?label=License&message=${data.license}&color=success)
+
 
   ## Contributors
-  -- Where there any contributors to the application/project --
+  -- Were there any contributors to the application/project --
 
-  Contributors that help create this application are: ${data.contributor}
+  Contributors: ${data.contributor}
 
   ## Tests
   -- How can we test the application --
@@ -50,13 +55,14 @@ function generateMarkdown(data) {
   The following is needed in order to run tests: ${data.test}
 
   ## Questions
-  -- Do you have any questions? --
+  -- Have any questions? --
 
-  If you do, contact me at: ${data.email}
+  Please reach out to me if you have any questions. Contact me at: ${data.email}
 
   -- Want to see the repo of the project --
 
-  The repository can be accessed here: ${data.github}
+  Interested in seeing other projects I have worked on? My repository can be accessed here: 
+  https://github.com/${data.github}
   `;
 }
 
