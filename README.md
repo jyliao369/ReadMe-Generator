@@ -1,7 +1,7 @@
-## Project Title: ReadMe Generator
+## Project Title: Professional ReadMe Generator
 
   ## Description:
-  The idea of this project is to create a generator that can create a ReadMe File for any future projects
+  The idea behind this project is to create a application that can help create ReadMe files for future projects. The application will ask for specific questions and use those answers to create a professional looking ReadMe files.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,21 +14,21 @@
   ## Installation
   -- What technologies did the application require in order to run smoothly and effectively?--
 
-  Node and JS
+  Node and Javascript were used to create this project
 
   ## Usage
   -- What is the application used for? --
 
-   This application is for Web Developers and Sotfware Engineers
+  This application is made for Web Developers and Software engineers. This will help alleviate time and give developers more time to work on their project instead of working and creating the ReadMe file
 
   ## License
   -- Are there any license the application has? --
 
-  This Application is covered by the MIt license.
+  This Application is covered by the MIT license.
 
-  [License Information](https://opensource.org/licenses/MIt)
+  [License Information](https://opensource.org/licenses/MIT)
 
-  ![badge](https://img.shields.io/static/v1?label=License&message=MIt&color=success)
+  ![badge](https://img.shields.io/static/v1?label=License&message=MIT&color=success)
 
 
   ## Contributors
@@ -39,7 +39,7 @@
   ## Tests
   -- How can we test the application --
 
- The application can be tested using Node.js in visual code or Gitbash for the command line
+ If on Visual Studies, using the node method can help run and test the application. On the command line, using gitbash can help test this application.
 
   ## Questions
   -- Have any questions? --
@@ -50,4 +50,29 @@
 
   Interested in seeing other projects I have worked on? My repository can be accessed here: 
   https://github.com/jyliao369
+
+  ## Screenshots
+  -- Basic Code of Questions --
+  ![Questions](screenshots/screenshot1.jpg)
+
+
+  -- First Test on VS --
+  ![First Test](screenshots/screenshot2.jpg)
+
+
+  -- ReadMe Template --
+  ![Template of the markdown File](screenshots/screenshot3.jpg)
+
+
+  -- Preview of ReadMe --
+  ![Preview in VS](screenshots/screenshot4.jpg)
+
+
+
+  ## Live Links
+
+  Github Repo: https://github.com/jyliao369/ReadMe-Generator#installation
+
+  Deployed Link:
+
   

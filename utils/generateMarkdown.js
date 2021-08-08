@@ -64,6 +64,31 @@ const generateMarkdown = (data) => {
 
   Interested in seeing other projects I have worked on? My repository can be accessed here: 
   https://github.com/${data.github}
+
+  ## Screenshots
+  -- Basic Code of Questions --
+  ![Questions](screenshots/screenshot1.jpg)
+
+
+  -- First Test on VS --
+  ![First Test](screenshots/screenshot2.jpg)
+
+
+  -- ReadMe Template --
+  ![Template of the markdown File](screenshots/screenshot3.jpg)
+
+
+  -- Preview of ReadMe --
+  ![Preview in VS](screenshots/screenshot4.jpg)
+
+
+
+  ## Live Links
+
+  Github Repo: https://github.com/jyliao369/ReadMe-Generator#installation
+
+  Deployed Link:
+
   `;
 }
 
