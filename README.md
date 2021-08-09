@@ -1,7 +1,7 @@
-## Project Title: Professional ReadMe Generator
+## Project Title: ReadMe Generator
 
   ## Description:
-  The idea behind this project is to create a application that can help create ReadMe files for future projects. The application will ask for specific questions and use those answers to create a professional looking ReadMe files.
+  The idea of this project is to create a generator that will create a Readme file for current or future projects.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,12 +14,12 @@
   ## Installation
   -- What technologies did the application require in order to run smoothly and effectively?--
 
-  Node and Javascript were used to create this project
+  Node and javascript
 
   ## Usage
   -- What is the application used for? --
 
-  This application is made for Web Developers and Software engineers. This will help alleviate time and give developers more time to work on their project instead of working and creating the ReadMe file
+  This application is for web developers and for software engineers. This application can help the developers spend more time working on the project.
 
   ## License
   -- Are there any license the application has? --
@@ -39,7 +39,7 @@
   ## Tests
   -- How can we test the application --
 
- If on Visual Studies, using the node method can help run and test the application. On the command line, using gitbash can help test this application.
+ To test the application, you can use two methods. In VS studio, running the node application allows you to test the application. On the command line you can use gitbash and run node as well.
 
   ## Questions
   -- Have any questions? --
@@ -51,6 +51,10 @@
   Interested in seeing other projects I have worked on? My repository can be accessed here: 
   https://github.com/jyliao369
 
+  ## Demonstration
+  -- Demonstration of the application in VS Code --
+  ![Demonstration](screenshots/Demo - VS.mp4)
+  
   ## Screenshots
   -- Basic Code of Questions --
   ![Questions](screenshots/screenshot1.jpg)
