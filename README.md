@@ -53,7 +53,7 @@
 
   ## Demonstration
   -- Demonstration of the application in VS Code --
-  ![Demonstration](screenshots/Demo - VS.mp4)
+  ![Demonstration](screenshots/Demo-VS.gif)
   
   ## Screenshots
   -- Basic Code of Questions --
