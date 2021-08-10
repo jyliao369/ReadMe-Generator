@@ -65,6 +65,13 @@ const generateMarkdown = (data) => {
   Interested in seeing other projects I have worked on? My repository can be accessed here: 
   https://github.com/${data.github}
 
+
+
+  ## Demonstration
+  -- Demonstration of the application in VS Code --
+  ![Demonstration](screenshots/Demo-VS.gif)
+
+
   ## Screenshots
   -- Basic Code of Questions --
   ![Questions](screenshots/screenshot1.jpg)
@@ -87,7 +94,7 @@ const generateMarkdown = (data) => {
 
   Github Repo: https://github.com/jyliao369/ReadMe-Generator#installation
 
-  Deployed Link:
+  Deployed Link: https://jyliao369.github.io/ReadMe-Generator/
 
   `;
 }

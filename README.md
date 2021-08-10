@@ -51,6 +51,8 @@
   Interested in seeing other projects I have worked on? My repository can be accessed here: 
   https://github.com/jyliao369
 
+
+
   ## Demonstration
   -- Demonstration of the application in VS Code --
   ![Demonstration](screenshots/Demo-VS.gif)
