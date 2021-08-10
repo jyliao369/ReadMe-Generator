@@ -79,6 +79,6 @@
 
   Github Repo: https://github.com/jyliao369/ReadMe-Generator#installation
 
-  Deployed Link:
+  Deployed Link: https://jyliao369.github.io/ReadMe-Generator/
 
   
